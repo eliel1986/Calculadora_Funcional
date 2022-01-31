@@ -1,0 +1,118 @@
+/* importando fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+/* formatando configurações do documento */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* formatando fundo da página */
+.background {
+	background-image: linear-gradient(90deg,  #C0C0C0, #4F4F4F);
+	height: 100vh;
+	color: darkred;
+	font-family: 'Comfortaa', cursive; /*importado do fonts.google.com */
+	font-family: 'Indie Flower', cursive; /*importado do fonts.google.com */
+	font-family: 'Shadows Into Light', cursive; /*importado do fonts.google.com */
+	text-align: center; /* alinhando texto ao centro da div */
+}
+
+/* formatando calculadora */
+.calculator {
+	position: absolute;
+	background-color: rgb(180, 180, 180); 
+	top: 50%; /*alinhando posição da calculadora na vertical*/
+	left: 50%; /*alinhando posição da calculadora na horizontal*/
+	transform: translate(-50%, -50%); /* alinha calculadora no centro da página 'eixo x e y' */
+	border-radius: 15px; /* arredonda cantos das bordas */
+	border: 1px solid black;
+	padding: 15px; /* distância entre elementos internos da borda */
+}
+
+/* formatando botões de números */
+.buttonumber {
+	background-color: whitesmoke;
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 7px;
+}
+
+/* formatando botões de ação */
+.buttonaction {
+	background-color: whitesmoke;
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	color: darkorange;
+	border: none;
+	border-radius: 7px;
+}
+
+/* formatando botão igual */
+.buttonequal {
+	background-color: orange;
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	border: none;
+	border-radius: 7px;
+}
+
+/* efeito ao passar o mouse (troca de cor) */
+.buttonumber:hover { 
+	background-color: moccasin;
+}
+
+.buttonaction:hover { 
+	background-color: moccasin;
+}
+
+.buttonequal:hover { 
+	background-color: darkorange;
+}
+
+/* formatando parágrafo, onde vão os dígitos da calculadora */
+#display {
+	background-color: whitesmoke;
+	width: 207px;
+	height: 30px;
+	margin: 5px;
+	font-size: 25px;
+	color: black;
+	text-align: right;
+	padding: 5px;
+	/* border-radius: 10px; */
+	border: 1px solid black;
+	overflow-x: auto; /* barra de rolagem horizontal */
+	overflow-y: hidden; /* barra de rolagem vertical (hidden: oculto) */
+}
+
+::-webkit-scrollbar { /* barra de rolagem da calculadora */
+	height: 4px;
+}
+
+::-webkit-scrollbar-track { /* trilha (barra de progresso da barra de rolagem */
+	background-color: #C0C0C0;
+}
+
+::-webkit-scrollbar-thumb { /* barra de rolagem arrastável */
+	background-color: darkred;
+}
+
+::-webkit-scrollbar-thumb:hover { /* mudar cor barra de rolagem arrastável ao passar o mouse */
+	background-color: rgb(236, 3, 3);
+}
+
+
+
