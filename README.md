@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="calculadora" src="img/calculadora_readme.png" />
+  <img alt="calculadora" src="calculadora_readme.png" />
 </p>
 
 <h3 align="center">
@@ -22,7 +22,7 @@ Benjamin Disraeli
 
 ## Como funciona
 
-<img src="img/calculadora_readme.gif">
+<img src="calculadora_readme.gif">
 
 ---
 
