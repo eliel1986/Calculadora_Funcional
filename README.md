@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="calculadora" src="/home/eliel/OneDrive/estudos/PROJETOS-ELIEL/projeto_calculadora_funcional/img/calculadora_readme.png" />
+  <img alt="calculadora" src="./img/calculadora_readme.png" />
 </p>
 
 <h3 align="center">
